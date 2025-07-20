@@ -1,0 +1,25 @@
+{
+  "name": "stratumcms/forge",
+  "description": "Bootstrapper web officiel pour l'installation de StratumCMS",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuketsu",
+      "email": "contact@velyorix.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "StratumForge\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8080"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
