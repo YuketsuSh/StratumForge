@@ -93,7 +93,7 @@ include __DIR__ . '/layout.php';
                     </button>
 
                     <?php if (!$hasErrors): ?>
-                        <a href="/install.php" class="inline-flex items-center gap-2 px-4 py-2 text-sm bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition">
+                        <a href="/?step=install" class="inline-flex items-center gap-2 px-4 py-2 text-sm bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition">
                             Continuer →
                         </a>
                     <?php else: ?>

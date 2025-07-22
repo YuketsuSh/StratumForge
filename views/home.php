@@ -7,7 +7,6 @@ ob_start();
         <div class="w-full max-w-2xl">
             <div class="stratum-card p-8 text-center">
 
-                <!-- Logo / Icone -->
                 <div class="mb-8">
                     <div class="inline-flex items-center justify-center w-20 h-20 rounded-2xl stratum-gradient mb-4">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -16,11 +15,10 @@ ob_start();
                     </div>
                     <h1 class="text-4xl font-bold text-foreground mb-2">Bienvenue dans Stratum Forge</h1>
                     <p class="text-lg text-muted-foreground max-w-md mx-auto">
-                        Cet outil va configurer et installer votre CMS Stratum automatiquement.
+                        Cet outil va télécharger et installer les dépendances pour votre CMS Stratum automatiquement.
                     </p>
                 </div>
 
-                <!-- Feature blocks -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                     <div class="p-4 rounded-lg bg-muted/50">
                         <div class="text-2xl mb-2">⚡</div>
@@ -39,10 +37,9 @@ ob_start();
                     </div>
                 </div>
 
-                <!-- Call to action -->
                 <div class="space-y-4">
                     <a href="?step=check" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-md text-sm font-medium hover:bg-primary/90 transition">
-                        Commencer l'installation
+                        Commencer
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
