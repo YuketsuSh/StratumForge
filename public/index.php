@@ -28,9 +28,6 @@ switch ($step) {
     case 'install':
         require __DIR__ . '/../views/install.php';
         break;
-    case 'done':
-        require __DIR__ . '/../views/done.php';
-        break;
     case 'home':
     default:
         require __DIR__ . '/../views/home.php';
